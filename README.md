@@ -5,7 +5,7 @@
 [![Quality Score](https://img.shields.io/scrutinizer/g/teamzac/bluepay-php.svg?style=flat-square)](https://scrutinizer-ci.com/g/teamzac/bluepay-php)
 [![Total Downloads](https://img.shields.io/packagist/dt/teamzac/bluepay-php.svg?style=flat-square)](https://packagist.org/packages/teamzac/bluepay-php)
 
-If you need to reach the BluePay API in Laravel/PHP but don't particularly care for the official SDK, this might be for you. 
+If you need to reach the BluePay API in Laravel 5.8+ but don't particularly care for the official SDK, this might be for you. 
 
 **This package is not yet ready for production use. It does not yet have tests and the API should be considered unstable. Use at your own risk.**
 
@@ -14,8 +14,10 @@ If you need to reach the BluePay API in Laravel/PHP but don't particularly care 
 You can install the package via composer:
 
 ```bash
-composer require teamzac/bluepay-php
+composer require teamzac/laravel-bluepay
 ```
+
+The service provider and ```BluePay``` facade will be automatically registered for you.
 
 ## Usage
 
