@@ -1,9 +1,9 @@
 # A Laravel-oriented BluePay client
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/teamzac/bluepay-php.svg?style=flat-square)](https://packagist.org/packages/teamzac/bluepay-php)
-[![Build Status](https://img.shields.io/travis/teamzac/bluepay-php/master.svg?style=flat-square)](https://travis-ci.org/teamzac/bluepay-php)
-[![Quality Score](https://img.shields.io/scrutinizer/g/teamzac/bluepay-php.svg?style=flat-square)](https://scrutinizer-ci.com/g/teamzac/bluepay-php)
-[![Total Downloads](https://img.shields.io/packagist/dt/teamzac/bluepay-php.svg?style=flat-square)](https://packagist.org/packages/teamzac/bluepay-php)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/teamzac/laravel-bluepay.svg?style=flat-square)](https://packagist.org/packages/teamzac/laravel-bluepay)
+[![Build Status](https://img.shields.io/travis/teamzac/laravel-bluepay/master.svg?style=flat-square)](https://travis-ci.org/teamzac/laravel-bluepay)
+[![Quality Score](https://img.shields.io/scrutinizer/g/teamzac/laravel-bluepay.svg?style=flat-square)](https://scrutinizer-ci.com/g/teamzac/laravel-bluepay)
+[![Total Downloads](https://img.shields.io/packagist/dt/teamzac/laravel-bluepay.svg?style=flat-square)](https://packagist.org/packages/teamzac/laravel-bluepay)
 
 If you need to reach the BluePay API in Laravel 5.8+ but don't particularly care for the official SDK, this might be for you. 
 
