@@ -1,0 +1,57 @@
+{
+    "name": "teamzac/laravel-bluepay",
+    "description": "A Laravel package to integrate BluePay payments",
+    "version": "0.0.1",
+    "keywords": [
+        "teamzac",
+        "laravel",
+        "bluepay"
+    ],
+    "homepage": "https://github.com/teamzac/laravel-bluepay",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Chad Janicek",
+            "email": "chad@zactax.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "guzzlehttp/guzzle": "~6.0",
+        "illuminate/support": "5.8.*"
+    },
+    "require-dev": {
+        "orchestra/testbench": "3.8.*",
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "TeamZac\\BluePay\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TeamZac\\BluePay\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TeamZac\\BluePay\\BluePayServiceProvider"
+            ],
+            "aliases": {
+                "BluePay": "TeamZac\\BluePay\\Facades\\BluePay"
+            }
+        }
+    }
+}
